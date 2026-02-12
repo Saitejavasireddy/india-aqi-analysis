@@ -1,0 +1,193 @@
+city,state,date,aqi,aqi_category,pm25,pm10,no2,so2,co,o3
+Delhi,Delhi,2024-01-01,385,Hazardous,290,420,85,42,3.2,28
+Delhi,Delhi,2024-01-15,342,Hazardous,258,380,78,38,2.9,25
+Delhi,Delhi,2024-02-01,298,Very Unhealthy,225,340,72,35,2.6,30
+Delhi,Delhi,2024-02-15,265,Very Unhealthy,198,310,68,32,2.4,32
+Delhi,Delhi,2024-03-01,189,Unhealthy,142,245,58,28,2.1,38
+Delhi,Delhi,2024-03-15,156,Unhealthy,118,198,52,25,1.8,42
+Delhi,Delhi,2024-04-01,124,Unhealthy for Sensitive,94,165,45,22,1.5,48
+Delhi,Delhi,2024-04-15,98,Moderate,72,128,38,18,1.2,52
+Delhi,Delhi,2024-05-01,112,Unhealthy for Sensitive,85,145,42,20,1.4,55
+Delhi,Delhi,2024-05-15,145,Unhealthy for Sensitive,108,178,48,23,1.6,50
+Delhi,Delhi,2024-06-01,89,Moderate,65,112,35,16,1.1,45
+Delhi,Delhi,2024-06-15,76,Moderate,55,95,30,14,0.9,40
+Mumbai,Maharashtra,2024-01-01,142,Unhealthy for Sensitive,108,185,52,28,1.8,35
+Mumbai,Maharashtra,2024-01-15,128,Unhealthy for Sensitive,95,165,48,25,1.6,32
+Mumbai,Maharashtra,2024-02-01,118,Unhealthy for Sensitive,88,152,45,23,1.5,30
+Mumbai,Maharashtra,2024-02-15,105,Unhealthy for Sensitive,78,138,42,21,1.4,28
+Mumbai,Maharashtra,2024-03-01,95,Moderate,70,125,38,19,1.2,32
+Mumbai,Maharashtra,2024-03-15,88,Moderate,64,115,35,17,1.1,35
+Mumbai,Maharashtra,2024-04-01,78,Moderate,56,102,32,15,1.0,38
+Mumbai,Maharashtra,2024-04-15,72,Moderate,52,94,30,14,0.9,40
+Mumbai,Maharashtra,2024-05-01,68,Moderate,48,88,28,13,0.8,42
+Mumbai,Maharashtra,2024-05-15,75,Moderate,54,96,31,14,0.9,38
+Mumbai,Maharashtra,2024-06-01,82,Moderate,60,105,33,16,1.0,35
+Mumbai,Maharashtra,2024-06-15,78,Moderate,56,98,31,15,0.9,36
+Kolkata,West Bengal,2024-01-01,198,Unhealthy,148,265,62,35,2.2,30
+Kolkata,West Bengal,2024-01-15,185,Unhealthy,138,248,58,32,2.0,28
+Kolkata,West Bengal,2024-02-01,168,Unhealthy,125,225,54,30,1.9,32
+Kolkata,West Bengal,2024-02-15,155,Unhealthy,115,205,50,28,1.7,35
+Kolkata,West Bengal,2024-03-01,142,Unhealthy for Sensitive,105,188,46,25,1.6,38
+Kolkata,West Bengal,2024-03-15,128,Unhealthy for Sensitive,95,168,42,23,1.4,40
+Kolkata,West Bengal,2024-04-01,115,Unhealthy for Sensitive,85,150,38,20,1.3,42
+Kolkata,West Bengal,2024-04-15,102,Unhealthy for Sensitive,75,135,35,18,1.2,45
+Kolkata,West Bengal,2024-05-01,95,Moderate,70,125,32,17,1.1,42
+Kolkata,West Bengal,2024-05-15,108,Unhealthy for Sensitive,80,142,36,19,1.2,40
+Kolkata,West Bengal,2024-06-01,88,Moderate,64,115,30,16,1.0,38
+Kolkata,West Bengal,2024-06-15,82,Moderate,60,108,28,15,0.9,36
+Chennai,Tamil Nadu,2024-01-01,85,Moderate,62,110,35,18,1.1,32
+Chennai,Tamil Nadu,2024-01-15,78,Moderate,56,98,32,16,1.0,30
+Chennai,Tamil Nadu,2024-02-01,72,Moderate,52,92,30,15,0.9,28
+Chennai,Tamil Nadu,2024-02-15,68,Moderate,48,86,28,14,0.8,30
+Chennai,Tamil Nadu,2024-03-01,75,Moderate,54,95,31,15,0.9,32
+Chennai,Tamil Nadu,2024-03-15,82,Moderate,60,105,33,16,1.0,35
+Chennai,Tamil Nadu,2024-04-01,88,Moderate,64,112,35,17,1.1,38
+Chennai,Tamil Nadu,2024-04-15,92,Moderate,68,118,36,18,1.1,40
+Chennai,Tamil Nadu,2024-05-01,78,Moderate,56,100,32,15,1.0,36
+Chennai,Tamil Nadu,2024-05-15,72,Moderate,52,92,30,14,0.9,34
+Chennai,Tamil Nadu,2024-06-01,65,Moderate,46,82,27,13,0.8,32
+Chennai,Tamil Nadu,2024-06-15,58,Moderate,42,75,25,12,0.7,30
+Bangalore,Karnataka,2024-01-01,92,Moderate,68,120,38,20,1.2,35
+Bangalore,Karnataka,2024-01-15,85,Moderate,62,108,35,18,1.1,33
+Bangalore,Karnataka,2024-02-01,78,Moderate,56,98,32,16,1.0,35
+Bangalore,Karnataka,2024-02-15,72,Moderate,52,90,30,15,0.9,37
+Bangalore,Karnataka,2024-03-01,82,Moderate,60,105,33,17,1.0,40
+Bangalore,Karnataka,2024-03-15,88,Moderate,64,112,35,18,1.1,42
+Bangalore,Karnataka,2024-04-01,95,Moderate,70,122,37,19,1.2,45
+Bangalore,Karnataka,2024-04-15,102,Unhealthy for Sensitive,75,132,39,20,1.3,48
+Bangalore,Karnataka,2024-05-01,88,Moderate,64,115,35,18,1.1,42
+Bangalore,Karnataka,2024-05-15,82,Moderate,60,105,33,17,1.0,40
+Bangalore,Karnataka,2024-06-01,75,Moderate,54,95,31,16,0.9,38
+Bangalore,Karnataka,2024-06-15,68,Moderate,48,88,28,14,0.8,35
+Hyderabad,Telangana,2024-01-01,105,Unhealthy for Sensitive,78,138,42,22,1.4,32
+Hyderabad,Telangana,2024-01-15,98,Moderate,72,128,40,20,1.3,30
+Hyderabad,Telangana,2024-02-01,88,Moderate,64,115,36,18,1.2,32
+Hyderabad,Telangana,2024-02-15,82,Moderate,60,105,34,17,1.1,34
+Hyderabad,Telangana,2024-03-01,92,Moderate,68,118,37,19,1.2,36
+Hyderabad,Telangana,2024-03-15,98,Moderate,72,125,39,20,1.3,38
+Hyderabad,Telangana,2024-04-01,108,Unhealthy for Sensitive,80,140,41,21,1.4,40
+Hyderabad,Telangana,2024-04-15,115,Unhealthy for Sensitive,85,148,43,22,1.5,42
+Hyderabad,Telangana,2024-05-01,95,Moderate,70,122,38,19,1.2,38
+Hyderabad,Telangana,2024-05-15,88,Moderate,64,112,35,18,1.1,36
+Hyderabad,Telangana,2024-06-01,78,Moderate,56,100,32,16,1.0,34
+Hyderabad,Telangana,2024-06-15,72,Moderate,52,92,30,15,0.9,32
+Lucknow,Uttar Pradesh,2024-01-01,325,Hazardous,245,385,75,40,2.8,25
+Lucknow,Uttar Pradesh,2024-01-15,298,Very Unhealthy,225,355,70,37,2.6,23
+Lucknow,Uttar Pradesh,2024-02-01,265,Very Unhealthy,198,320,65,34,2.4,28
+Lucknow,Uttar Pradesh,2024-02-15,235,Very Unhealthy,175,290,60,31,2.2,30
+Lucknow,Uttar Pradesh,2024-03-01,185,Unhealthy,138,248,52,27,1.9,35
+Lucknow,Uttar Pradesh,2024-03-15,158,Unhealthy,118,210,48,24,1.7,38
+Lucknow,Uttar Pradesh,2024-04-01,128,Unhealthy for Sensitive,95,172,42,21,1.5,42
+Lucknow,Uttar Pradesh,2024-04-15,108,Unhealthy for Sensitive,80,145,38,19,1.3,45
+Lucknow,Uttar Pradesh,2024-05-01,125,Unhealthy for Sensitive,92,165,41,20,1.4,42
+Lucknow,Uttar Pradesh,2024-05-15,142,Unhealthy for Sensitive,105,185,45,22,1.6,40
+Lucknow,Uttar Pradesh,2024-06-01,98,Moderate,72,130,36,18,1.2,38
+Lucknow,Uttar Pradesh,2024-06-15,85,Moderate,62,112,32,16,1.1,35
+Kanpur,Uttar Pradesh,2024-01-01,345,Hazardous,260,395,78,42,3.0,24
+Kanpur,Uttar Pradesh,2024-01-15,318,Hazardous,240,375,74,40,2.8,22
+Kanpur,Uttar Pradesh,2024-02-01,285,Very Unhealthy,215,345,68,36,2.5,26
+Kanpur,Uttar Pradesh,2024-02-15,255,Very Unhealthy,192,315,64,34,2.3,28
+Kanpur,Uttar Pradesh,2024-03-01,198,Unhealthy,148,268,55,29,2.0,32
+Kanpur,Uttar Pradesh,2024-03-15,172,Unhealthy,128,228,50,26,1.8,36
+Kanpur,Uttar Pradesh,2024-04-01,142,Unhealthy for Sensitive,105,188,44,23,1.6,40
+Kanpur,Uttar Pradesh,2024-04-15,118,Unhealthy for Sensitive,88,158,40,20,1.4,44
+Kanpur,Uttar Pradesh,2024-05-01,135,Unhealthy for Sensitive,100,178,43,22,1.5,41
+Kanpur,Uttar Pradesh,2024-05-15,155,Unhealthy,115,202,47,24,1.7,38
+Kanpur,Uttar Pradesh,2024-06-01,105,Unhealthy for Sensitive,78,140,38,19,1.3,36
+Kanpur,Uttar Pradesh,2024-06-15,92,Moderate,68,122,34,17,1.2,34
+Patna,Bihar,2024-01-01,312,Hazardous,235,372,72,38,2.7,26
+Patna,Bihar,2024-01-15,288,Very Unhealthy,218,348,68,36,2.5,24
+Patna,Bihar,2024-02-01,258,Very Unhealthy,195,318,63,33,2.3,28
+Patna,Bihar,2024-02-15,232,Very Unhealthy,175,292,59,31,2.1,30
+Patna,Bihar,2024-03-01,178,Unhealthy,132,242,51,27,1.8,34
+Patna,Bihar,2024-03-15,152,Unhealthy,112,205,47,24,1.6,38
+Patna,Bihar,2024-04-01,125,Unhealthy for Sensitive,92,168,41,21,1.4,42
+Patna,Bihar,2024-04-15,105,Unhealthy for Sensitive,78,142,37,19,1.3,45
+Patna,Bihar,2024-05-01,118,Unhealthy for Sensitive,88,158,40,20,1.4,42
+Patna,Bihar,2024-05-15,138,Unhealthy for Sensitive,102,182,44,22,1.5,40
+Patna,Bihar,2024-06-01,95,Moderate,70,128,35,18,1.2,38
+Patna,Bihar,2024-06-15,82,Moderate,60,110,31,16,1.0,35
+Ahmedabad,Gujarat,2024-01-01,168,Unhealthy,125,225,55,30,1.9,30
+Ahmedabad,Gujarat,2024-01-15,155,Unhealthy,115,205,52,28,1.8,28
+Ahmedabad,Gujarat,2024-02-01,142,Unhealthy for Sensitive,105,188,48,26,1.6,32
+Ahmedabad,Gujarat,2024-02-15,128,Unhealthy for Sensitive,95,172,45,24,1.5,34
+Ahmedabad,Gujarat,2024-03-01,118,Unhealthy for Sensitive,88,158,42,22,1.4,36
+Ahmedabad,Gujarat,2024-03-15,108,Unhealthy for Sensitive,80,145,39,20,1.3,38
+Ahmedabad,Gujarat,2024-04-01,98,Moderate,72,132,36,19,1.2,40
+Ahmedabad,Gujarat,2024-04-15,88,Moderate,64,118,34,17,1.1,42
+Ahmedabad,Gujarat,2024-05-01,95,Moderate,70,125,36,18,1.2,40
+Ahmedabad,Gujarat,2024-05-15,105,Unhealthy for Sensitive,78,138,38,20,1.3,38
+Ahmedabad,Gujarat,2024-06-01,85,Moderate,62,112,33,17,1.1,36
+Ahmedabad,Gujarat,2024-06-15,78,Moderate,56,102,31,16,1.0,34
+Pune,Maharashtra,2024-01-01,98,Moderate,72,128,40,20,1.3,33
+Pune,Maharashtra,2024-01-15,88,Moderate,64,115,37,18,1.2,31
+Pune,Maharashtra,2024-02-01,82,Moderate,60,105,35,17,1.1,33
+Pune,Maharashtra,2024-02-15,75,Moderate,54,96,32,16,1.0,35
+Pune,Maharashtra,2024-03-01,85,Moderate,62,108,34,17,1.1,37
+Pune,Maharashtra,2024-03-15,92,Moderate,68,118,36,18,1.2,39
+Pune,Maharashtra,2024-04-01,102,Unhealthy for Sensitive,75,132,38,19,1.3,42
+Pune,Maharashtra,2024-04-15,108,Unhealthy for Sensitive,80,140,40,20,1.4,44
+Pune,Maharashtra,2024-05-01,88,Moderate,64,115,35,18,1.2,40
+Pune,Maharashtra,2024-05-15,82,Moderate,60,105,33,17,1.1,38
+Pune,Maharashtra,2024-06-01,72,Moderate,52,92,30,15,0.9,35
+Pune,Maharashtra,2024-06-15,65,Moderate,46,85,28,14,0.8,33
+Jaipur,Rajasthan,2024-01-01,185,Unhealthy,138,248,58,32,2.0,28
+Jaipur,Rajasthan,2024-01-15,172,Unhealthy,128,232,55,30,1.9,26
+Jaipur,Rajasthan,2024-02-01,155,Unhealthy,115,208,50,28,1.7,30
+Jaipur,Rajasthan,2024-02-15,142,Unhealthy for Sensitive,105,190,47,26,1.6,32
+Jaipur,Rajasthan,2024-03-01,158,Unhealthy,118,212,52,28,1.8,35
+Jaipur,Rajasthan,2024-03-15,175,Unhealthy,130,235,56,30,1.9,38
+Jaipur,Rajasthan,2024-04-01,148,Unhealthy for Sensitive,110,198,49,27,1.7,40
+Jaipur,Rajasthan,2024-04-15,128,Unhealthy for Sensitive,95,175,44,24,1.5,42
+Jaipur,Rajasthan,2024-05-01,142,Unhealthy for Sensitive,105,188,47,26,1.6,40
+Jaipur,Rajasthan,2024-05-15,158,Unhealthy,118,210,51,28,1.8,38
+Jaipur,Rajasthan,2024-06-01,115,Unhealthy for Sensitive,85,155,42,23,1.4,36
+Jaipur,Rajasthan,2024-06-15,102,Unhealthy for Sensitive,75,138,39,21,1.3,34
+Guwahati,Assam,2024-01-01,145,Unhealthy for Sensitive,108,192,48,25,1.6,30
+Guwahati,Assam,2024-01-15,132,Unhealthy for Sensitive,98,178,45,23,1.5,28
+Guwahati,Assam,2024-02-01,118,Unhealthy for Sensitive,88,160,42,21,1.4,30
+Guwahati,Assam,2024-02-15,105,Unhealthy for Sensitive,78,142,39,19,1.3,32
+Guwahati,Assam,2024-03-01,95,Moderate,70,128,36,18,1.2,34
+Guwahati,Assam,2024-03-15,88,Moderate,64,118,34,17,1.1,36
+Guwahati,Assam,2024-04-01,82,Moderate,60,108,32,16,1.0,38
+Guwahati,Assam,2024-04-15,75,Moderate,54,98,30,15,0.9,40
+Guwahati,Assam,2024-05-01,85,Moderate,62,112,33,16,1.1,38
+Guwahati,Assam,2024-05-15,92,Moderate,68,122,35,17,1.2,36
+Guwahati,Assam,2024-06-01,78,Moderate,56,102,31,15,1.0,34
+Guwahati,Assam,2024-06-15,72,Moderate,52,94,29,14,0.9,32
+Varanasi,Uttar Pradesh,2024-01-01,295,Very Unhealthy,222,352,70,38,2.6,25
+Varanasi,Uttar Pradesh,2024-01-15,275,Very Unhealthy,208,335,66,35,2.4,23
+Varanasi,Uttar Pradesh,2024-02-01,248,Very Unhealthy,188,308,62,33,2.2,27
+Varanasi,Uttar Pradesh,2024-02-15,225,Very Unhealthy,170,285,58,30,2.0,29
+Varanasi,Uttar Pradesh,2024-03-01,175,Unhealthy,130,238,50,26,1.8,33
+Varanasi,Uttar Pradesh,2024-03-15,152,Unhealthy,112,205,46,24,1.6,36
+Varanasi,Uttar Pradesh,2024-04-01,125,Unhealthy for Sensitive,92,170,41,21,1.4,40
+Varanasi,Uttar Pradesh,2024-04-15,108,Unhealthy for Sensitive,80,148,38,19,1.3,43
+Varanasi,Uttar Pradesh,2024-05-01,118,Unhealthy for Sensitive,88,160,40,20,1.4,41
+Varanasi,Uttar Pradesh,2024-05-15,135,Unhealthy for Sensitive,100,180,43,22,1.5,38
+Varanasi,Uttar Pradesh,2024-06-01,95,Moderate,70,130,35,18,1.2,36
+Varanasi,Uttar Pradesh,2024-06-15,85,Moderate,62,115,32,16,1.1,34
+Bhopal,Madhya Pradesh,2024-01-01,142,Unhealthy for Sensitive,105,188,48,26,1.6,30
+Bhopal,Madhya Pradesh,2024-01-15,128,Unhealthy for Sensitive,95,172,45,24,1.5,28
+Bhopal,Madhya Pradesh,2024-02-01,115,Unhealthy for Sensitive,85,155,42,22,1.4,30
+Bhopal,Madhya Pradesh,2024-02-15,105,Unhealthy for Sensitive,78,142,39,20,1.3,32
+Bhopal,Madhya Pradesh,2024-03-01,118,Unhealthy for Sensitive,88,158,43,23,1.4,35
+Bhopal,Madhya Pradesh,2024-03-15,128,Unhealthy for Sensitive,95,170,46,25,1.5,38
+Bhopal,Madhya Pradesh,2024-04-01,108,Unhealthy for Sensitive,80,145,40,21,1.3,40
+Bhopal,Madhya Pradesh,2024-04-15,95,Moderate,70,128,37,19,1.2,42
+Bhopal,Madhya Pradesh,2024-05-01,102,Unhealthy for Sensitive,75,138,39,20,1.3,40
+Bhopal,Madhya Pradesh,2024-05-15,112,Unhealthy for Sensitive,82,150,41,21,1.4,38
+Bhopal,Madhya Pradesh,2024-06-01,88,Moderate,64,118,34,18,1.1,36
+Bhopal,Madhya Pradesh,2024-06-15,78,Moderate,56,105,32,16,1.0,34
+Visakhapatnam,Andhra Pradesh,2024-01-01,95,Moderate,70,125,38,20,1.2,32
+Visakhapatnam,Andhra Pradesh,2024-01-15,88,Moderate,64,115,36,18,1.1,30
+Visakhapatnam,Andhra Pradesh,2024-02-01,82,Moderate,60,108,34,17,1.0,32
+Visakhapatnam,Andhra Pradesh,2024-02-15,75,Moderate,54,98,32,16,0.9,34
+Visakhapatnam,Andhra Pradesh,2024-03-01,85,Moderate,62,110,35,17,1.1,36
+Visakhapatnam,Andhra Pradesh,2024-03-15,92,Moderate,68,118,37,18,1.2,38
+Visakhapatnam,Andhra Pradesh,2024-04-01,98,Moderate,72,125,39,19,1.2,40
+Visakhapatnam,Andhra Pradesh,2024-04-15,88,Moderate,64,115,36,18,1.1,38
+Visakhapatnam,Andhra Pradesh,2024-05-01,78,Moderate,56,102,33,16,1.0,36
+Visakhapatnam,Andhra Pradesh,2024-05-15,72,Moderate,52,94,31,15,0.9,34
+Visakhapatnam,Andhra Pradesh,2024-06-01,68,Moderate,48,88,29,14,0.8,32
+Visakhapatnam,Andhra Pradesh,2024-06-15,62,Moderate,44,82,27,13,0.8,30
