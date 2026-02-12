@@ -26,6 +26,9 @@ We had funding for 5 cities. Which ones should we target, and why?
 
 Target these 5 cities. Focus on PM2.5 reduction. Run the campaign before winter (October-November) when AQI spikes.
 
+<img width="654" height="784" alt="image" src="https://github.com/user-attachments/assets/f05dccae-2811-46a3-aa65-7b0379c4f61c" />
+
+
 ## Tools Used
 
 - PostgreSQL — queried the data
