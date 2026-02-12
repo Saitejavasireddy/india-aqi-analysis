@@ -1,6 +1,7 @@
 # India AQI Analysis
 
-![Dashboard](dashboard_screenshot.png)
+![Dashboard](![dashboard_screenshot png](https://github.com/user-attachments/assets/3670cd3b-ff94-4ef6-86af-0bdb10a001fc)
+)
 
 **[View Interactive Dashboard on Tableau Public](https://public.tableau.com/shared/T33F4WZ7Q?:display_count=n&:origin=viz_share_link)**
 
