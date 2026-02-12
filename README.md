@@ -95,4 +95,3 @@ PM2.5 weighted highest because it penetrates deepest into lungs.
 ## Data Source
 
 Based on India's Central Pollution Control Board (CPCB) AQI data structure.
-Note: To view the Tableau dashboard, please download both the .twb and the .csv file and keep them in the same folder.
