@@ -47,3 +47,5 @@ Target these 5 cities. Focus on PM2.5 reduction. Run the campaign before winter 
 ## Data Source
 
 Based on India's Central Pollution Control Board AQI data structure.
+
+Note: To view the Tableau dashboard, please download both the .twb and the .csv file and keep them in the same folder.
