@@ -1,10 +1,6 @@
 # india-aqi-analysis
 Analysis of air quality across 15 Indian cities to identify top 5 cities for clean air campaign.
 
-# India AQI Analysis
-
-Analyzed air quality data across 15 Indian cities to help a nonprofit decide where to run a clean air campaign.
-
 ## The Question
 
 We had funding for 5 cities. Which ones should we target, and why?
