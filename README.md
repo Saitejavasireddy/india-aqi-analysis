@@ -1,54 +1,96 @@
-# india-aqi-analysis
-Analysis of air quality across 15 Indian cities to identify top 5 cities for clean air campaign.
+# India AQI Analysis
 
-## The Question
+![Dashboard](dashboard_screenshot.png)
 
-We had funding for 5 cities. Which ones should we target, and why?
+**[View Interactive Dashboard on Tableau Public](https://public.tableau.com/shared/T33F4WZ7Q?:display_count=n&:origin=viz_share_link)**
 
-## What I Found
+---
 
-**Worst 5 cities by average AQI:**
-1. Kanpur (193)
-2. Delhi (190)
-3. Lucknow (179)
-4. Patna (174)
-5. Varanasi (170)
+## Business Problem
 
-4 out of 5 are in Uttar Pradesh. That's not a coincidence.
+A nonprofit has funding for a clean air campaign in **5 cities**. They asked:
+- Which cities should we target?
+- What's causing the pollution?
+- When should we launch?
 
-**Main pollutant:** PM2.5 and PM10 — particulate matter from vehicles, construction, and crop burning.
+## Key Findings
 
-**Worst months:** January and February. Winter traps pollution close to the ground.
-
-**Best months:** May and June. Monsoon winds clear the air.
+| Finding | Insight |
+|---------|---------|
+| Worst 5 cities | Kanpur (193), Delhi (190), Lucknow (179), Patna (174), Varanasi (170) |
+| Pattern | 4 of 5 are in Uttar Pradesh — state-level policy needed |
+| Main pollutant | PM2.5 (correlates 0.99 with PM10) — same source |
+| Seasonal swing | 40-50% improvement from winter to summer |
+| Root cause | Winter inversion + crop burning + vehicle emissions |
 
 ## Recommendation
 
-Target these 5 cities. Focus on PM2.5 reduction. Run the campaign before winter (October-November) when AQI spikes.
+**Target cities:** Kanpur, Delhi, Lucknow, Patna, Varanasi
 
-<img width="654" height="784" alt="image" src="https://github.com/user-attachments/assets/f05dccae-2811-46a3-aa65-7b0379c4f61c" />
+**Focus on:** PM2.5 reduction (vehicles, crop burning, construction dust)
 
+**Timing:** Launch in October-November, before winter AQI spike
 
-## Tools Used
+---
 
-- PostgreSQL — queried the data
-- Python (pandas, matplotlib, seaborn) — cleaned data and made charts
-- Tableau — built the dashboard
+## Analysis Approach
+
+### 1. SQL Analysis
+Wrote queries to answer specific business questions:
+- City rankings with priority levels
+- Pollutant breakdown by source type
+- Seasonal patterns with % change calculations
+- Correlation between pollutants
+- Weighted pollution score (PM2.5 weighted 40% since it's deadliest)
+
+### 2. Python Visualization
+Created charts showing:
+- City-wise AQI comparison
+- Monthly trends
+- Pollutant correlation matrix
+- Winter vs summer comparison
+- Weighted pollution scores
+
+### 3. Tableau Dashboard
+Interactive dashboard with:
+- City AQI rankings
+- Trend analysis
+- Pollutant breakdown
+- State-level view
+
+---
+
+## Technical Details
+
+**Data:** 15 Indian cities, 6 months (Jan-Jun 2024), 180 readings
+
+**Tools:**
+- PostgreSQL — data storage and SQL analysis
+- Python (pandas, matplotlib, seaborn) — data processing and visualization
+- Tableau — interactive dashboard
+
+**Weighted Pollution Score Formula:**
+```
+Score = PM2.5 × 0.40 + PM10 × 0.25 + NO2 × 0.20 + SO2 × 0.10 + CO × 0.05
+```
+PM2.5 weighted highest because it penetrates deepest into lungs.
+
+---
 
 ## Files
 
-- `aqi_india.csv` — raw data (15 cities, 6 months, 180 readings)
-- `aqi_analysis.sql` — all SQL queries
-- `aqi_analysis.ipynb` — Python notebook with analysis
-- `chart1_city_aqi.png` — average AQI by city
-- `chart2_monthly_trend.png` — AQI trend over months
-- `chart3_worst_cities_trend.png` — monthly trend for worst 5 cities
-- `chart4_pollutants.png` — pollutant levels comparison
-- `chart5_state_aqi.png` — state-level AQI
-- `aqi_dashboard.twbx` — Tableau dashboard
+| File | Description |
+|------|-------------|
+| `aqi_india.csv` | Raw data |
+| `aqi_analysis.sql` | SQL queries with business context |
+| `aqi_analysis.ipynb` | Python notebook |
+| `chart1-8.png` | Visualizations |
+| `city_summary_stats.csv` | Summary statistics |
+| `aqi_dashboard.twbx` | Tableau workbook |
+
+---
 
 ## Data Source
 
-Based on India's Central Pollution Control Board AQI data structure.
-
+Based on India's Central Pollution Control Board (CPCB) AQI data structure.
 Note: To view the Tableau dashboard, please download both the .twb and the .csv file and keep them in the same folder.
